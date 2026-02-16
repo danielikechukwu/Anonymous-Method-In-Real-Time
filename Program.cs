@@ -37,9 +37,15 @@ namespace AnonymousMethodInRealTime
                 return x.ID == 103;
             });
 
+            /***
+             * Lambdas console
+             * *******/
             Console.WriteLine(@"ID : {0}, Name : {1}, Gender : {2}, Salary : {3}",
                 employee.ID, employee.Name, employee.Gender, employee.Salary);
 
+            /***
+             * Anonymous function console
+             * ******/
             Console.WriteLine(@"ID : {0}, Name : {1}, Gender : {2}, Salary : {3}",
                 employee1.ID, employee1.Name, employee1.Gender, employee1.Salary);
 
